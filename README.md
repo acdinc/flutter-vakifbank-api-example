@@ -11,9 +11,7 @@ API URL: <https://apiportal.vakifbank.com.tr/>
 
 ## Screenshots
 
-<img src="screenshots/ss_login.png" height="350" alt="login_page"/>
-<img src="screenshots/ss_bond_list.png" height="350" alt="bond_list_page"/>
-<img src="screenshots/ss_calculate_bond.png" height="350" alt="calculate_bond_page"/>
+<img src="screenshots/ss_login.png" height="350" alt="login_page"/> <img src="screenshots/ss_bond_list.png" height="350" alt="bond_list_page"/> <img src="screenshots/ss_calculate_bond.png" height="350" alt="calculate_bond_page"/>
 
 ## Summary
 
