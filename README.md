@@ -1,5 +1,5 @@
 <!-- ABOUT THE PROJECT -->
-# Vakifbank Api Example App
+# Vakifbank Api Example App with Flutter
 
 ![version][version_badge]
 [![flutter][flutter_badge]][flutter_link]
@@ -11,26 +11,32 @@ API URL: <https://apiportal.vakifbank.com.tr/>
 
 ## Screenshots
 
-## Architecture and Folder Structure
+<img src="screenshots/ss_login.png" height="350" alt="login_page"/>
+<img src="screenshots/ss_bond_list.png" height="350" alt="bond_list_page"/>
+<img src="screenshots/ss_calculate_bond.png" height="350" alt="calculate_bond_page"/>
 
-* Clean architecture with Bloc state management
-* Test Driven Development
+## Summary
+
+* Clean architecture
 * Scalable and maintainable code
-* data, domain, presentation, core folders
-
-## Major Packages
-
 * bloc for state management
-* get It for service locator
+* get_it for service locator
 * dio and retrofit for api service
 * very_good_analysis for set of lints
 * freezed and json_serializable for models
-* auto_router for navigation
+
+## TODOs
+
+* [x] Minimum viable product
+* [ ] more tests
+* [ ] add splash screen and logic
+* [ ] add navigation service
+* [ ] edit theme
 
 <!-- CONTACT -->
 ## Contact
 
-Ali Dinc - [@acdinc](https://twitter.com/acdinc) - alcmdnc@gmail.com
+Ali Dinc - [@acdinc](https://www.linkedin.com/in/acdinc/) - alcmdnc@gmail.com
 
 [version_badge]: https://img.shields.io/badge/version-0.0.1-orange
 

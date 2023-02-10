@@ -1,0 +1,20 @@
+{
+    "Header": {
+        "StatusCode": "APIGW000000",
+        "StatusDescription": "Completed",
+        "ObjectID": "2ce2d775-a26c-4f1c-aa8b-d6ca7804d976"
+    },
+    "Data": {
+        "Info": {
+            "WithholdingRate": "15",
+            "WithholdingAmount": "0.89",
+            "Item": "255.0",
+            "GrossYield": "5.9",
+            "DirtyPrice": "96.003",
+            "Amount": "249.1",
+            "NetAmount": "254.11",
+            "CleanPrice": "96.003",
+            "CouponUnitPrice": ""
+        }
+    }
+}

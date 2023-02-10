@@ -1,0 +1,56 @@
+{
+    "Header": {
+        "StatusCode": "APIGW000000",
+        "StatusDescription": "Completed",
+        "ObjectID": "2668b2e2-b6a0-4a4c-9d04-b383acee50f7"
+    },
+    "Data": {
+        "ProductInfo": [
+            {
+                "WithholdingRate": "10",
+                "ExpiryDate": "2020-10-07T00:00:00",
+                "TermDays": "113",
+                "ProductName": "Devlet Tahvili-Iskontolu",
+                "PurchaseInterestRate": "2.4",
+                "ISIN": "TRT071020T23",
+                "CurrencyCode": "TL",
+                "PaperType": "",
+                "CleanPrice": "100.0",
+                "SaleInterestRate": "",
+                "PaperType2": "1",
+                "CouponInterestRate": "",
+                "PaymentPeriod": ""
+            },
+            {
+                "WithholdingRate": "",
+                "ExpiryDate": "2021-11-12T00:00:00",
+                "TermDays": "514",
+                "ProductName": "Bankamız Tahvili-SabitKuponlu",
+                "PurchaseInterestRate": "2.2",
+                "ISIN": "XS0993155398",
+                "CurrencyCode": "EUR",
+                "PaperType": "1",
+                "CleanPrice": "110.0",
+                "SaleInterestRate": "1.7",
+                "PaperType2": "2",
+                "CouponInterestRate": "4.35",
+                "PaymentPeriod": "12 ay"
+            },
+            {
+                "WithholdingRate": "10",
+                "ExpiryDate": "2020-10-24T00:00:00",
+                "TermDays": "130",
+                "ProductName": "Bankamız Bonosu-Iskontolu",
+                "PurchaseInterestRate": "22.5",
+                "ISIN": "TRQVKFB81526",
+                "CurrencyCode": "TL",
+                "PaperType": "",
+                "CleanPrice": "97.575",
+                "SaleInterestRate": "12.5",
+                "PaperType2": "1",
+                "CouponInterestRate": "",
+                "PaymentPeriod": ""
+            }
+        ]
+    }
+}

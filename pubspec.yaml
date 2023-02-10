@@ -12,16 +12,21 @@ dependencies:
     sdk: flutter
 
   # state management
-  flutter_bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
 
   # service locator
   get_it: ^7.2.0
 
   # network
   dio: ^4.0.6
+  retrofit: ^3.3.1
+
+  # local storage
+  hive_flutter: ^1.1.0
 
   # core utilities
   envied: ^0.3.0
+  equatable: ^2.0.5
   freezed_annotation: ^2.2.0
   json_annotation: ^4.8.0
 
@@ -32,10 +37,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  bloc_test: ^9.1.1
   build_runner: ^2.3.3
   envied_generator: ^0.3.0
   freezed: ^2.3.2
   json_serializable: ^6.6.0
+  mocktail: ^0.3.0
+  retrofit_generator: ^4.2.0
   very_good_analysis: ^3.1.0
 
 flutter:
