@@ -24,6 +24,9 @@ dependencies:
   # local storage
   hive_flutter: ^1.1.0
 
+  # navigation
+  go_router: ^6.2.0
+
   # core utilities
   envied: ^0.3.0
   equatable: ^2.0.5

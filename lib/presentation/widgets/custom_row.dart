@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 
 class CustomRow extends StatelessWidget {
   const CustomRow({
-    super.key,
     required this.text,
     required this.value,
+    super.key,
   });
 
   final String text;

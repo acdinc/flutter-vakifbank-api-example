@@ -1,5 +1,5 @@
 import 'app/app.dart';
-import 'app/injection_container.dart' as di;
+import 'app/locator.dart' as di;
 import 'core/bootstrap/bootstrap.dart';
 
 /*

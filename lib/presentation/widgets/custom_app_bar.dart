@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../core/extensions/build_context_extension.dart';
 
 class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
-  const CustomAppBar({super.key, required this.title});
+  const CustomAppBar({
+    required this.title,
+    super.key,
+  });
 
   final String title;
 
@@ -23,7 +27,7 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
 
   IconButton _leading(BuildContext context) {
     return IconButton(
-      onPressed: () => Navigator.pop(context),
+      onPressed: () => context.pop(context),
       icon: const Icon(
         Icons.close,
         color: Colors.black87,

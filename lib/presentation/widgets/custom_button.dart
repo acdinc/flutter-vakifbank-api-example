@@ -4,13 +4,13 @@ import '../../core/extensions/build_context_extension.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({
-    super.key,
     required this.text,
     required this.onPressed,
     this.isLoading = false,
     this.buttonOpacity,
     this.textColor,
     this.loadingText,
+    super.key,
   });
 
   final String text;

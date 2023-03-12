@@ -2,8 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
-import '../../app/constants/app_strings.dart';
+import '../../app/strings.dart';
 import '../blocs/transaction_type/transaction_type_cubit.dart';
 
 @immutable
@@ -43,7 +44,7 @@ extension Present<T> on AlertDialogModel<T> {
                 content: Text(message),
                 actions: buttons.entries.map((e) {
                   return CupertinoDialogAction(
-                    onPressed: () => Navigator.pop(context, e.value),
+                    onPressed: () => context.pop(e.value),
                     child: Text(e.key),
                   );
                 }).toList(),
@@ -53,7 +54,7 @@ extension Present<T> on AlertDialogModel<T> {
                 content: Text(message),
                 actions: buttons.entries.map((e) {
                   return TextButton(
-                    onPressed: () => Navigator.pop(context, e.value),
+                    onPressed: () => context.pop(e.value),
                     child: Text(e.key),
                   );
                 }).toList(),

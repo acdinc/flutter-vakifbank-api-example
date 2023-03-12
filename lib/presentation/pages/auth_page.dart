@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../app/constants/app_strings.dart';
-import '../../app/injection_container.dart';
+import '../../app/locator.dart';
+import '../../app/strings.dart';
 import '../../core/extensions/build_context_extension.dart';
 import '../blocs/auth/auth_bloc.dart';
 import '../widgets/auth_button.dart';

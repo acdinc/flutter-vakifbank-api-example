@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../app/constants/app_constants.dart';
-import '../../app/constants/app_strings.dart';
-import '../../app/injection_container.dart';
+import '../../app/constants.dart';
+import '../../app/locator.dart';
+import '../../app/strings.dart';
 import '../../domain/entities/product_info/product_info_entity.dart';
 import '../blocs/bond_list/bond_list_bloc.dart';
 import '../blocs/bond_list/bond_list_event.dart';

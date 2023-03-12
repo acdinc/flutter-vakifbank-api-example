@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-import '../../app/injection_container.dart';
+import '../../app/locator.dart';
 import '../../core/extensions/string_extensions.dart';
 import '../local_data_source/local_data_keys.dart';
 import '../local_data_source/local_data_source.dart';

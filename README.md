@@ -20,15 +20,16 @@ API URL: <https://apiportal.vakifbank.com.tr/>
 * bloc for state management
 * get_it for service locator
 * dio and retrofit for api service
+* go_router for navigation
 * very_good_analysis for set of lints
 * freezed and json_serializable for models
 
 ## TODOs
 
 * [x] Minimum viable product
+* [x] add navigation service
 * [ ] more tests
 * [ ] add splash screen and logic
-* [ ] add navigation service
 * [ ] edit theme
 
 <!-- CONTACT -->

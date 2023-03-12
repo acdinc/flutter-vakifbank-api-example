@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 
-import '../../app/constants/app_strings.dart';
+import '../../app/router.dart';
+import '../../app/strings.dart';
 import '../blocs/auth/auth_bloc.dart';
 import '../blocs/auth/auth_event.dart';
 import '../blocs/auth/auth_state.dart';
-import '../pages/bond_list_page.dart';
 import 'custom_button.dart';
 
 class AuthButton extends StatelessWidget {
@@ -16,14 +17,7 @@ class AuthButton extends StatelessWidget {
     return BlocConsumer<AuthBloc, AuthState>(
       listener: (context, state) {
         state.whenOrNull(
-          authenticated: (data) => Navigator.push(
-            context,
-            MaterialPageRoute<BondListPage>(
-              builder: (context) {
-                return const BondListPage();
-              },
-            ),
-          ),
+          authenticated: (data) => context.goNamed(Routes.bondList.name),
         );
       },
       builder: (context, state) {

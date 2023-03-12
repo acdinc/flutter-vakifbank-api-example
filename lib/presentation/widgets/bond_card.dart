@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-import '../../app/constants/app_strings.dart';
+import '../../app/strings.dart';
 import '../../core/extensions/build_context_extension.dart';
 import '../../domain/entities/product_info/product_info_entity.dart';
 
 class BondCard extends StatelessWidget {
   const BondCard({
-    super.key,
     required this.productInfo,
     required this.onTap,
+    super.key,
   });
 
   final ProductInfoEntity productInfo;

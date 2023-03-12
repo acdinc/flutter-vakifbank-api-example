@@ -1,12 +1,15 @@
 import 'package:flutter/cupertino.dart';
 
-import '../../app/constants/app_strings.dart';
+import '../../app/strings.dart';
 import '../../core/extensions/build_context_extension.dart';
 import '../../domain/entities/form_data/form_data_entity.dart';
 import 'custom_button.dart';
 
 class FormWidget extends StatefulWidget {
-  const FormWidget({super.key, required this.onValidated});
+  const FormWidget({
+    required this.onValidated,
+    super.key,
+  });
 
   final void Function(FormDataEntity data) onValidated;
 

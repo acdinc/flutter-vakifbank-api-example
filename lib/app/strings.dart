@@ -1,4 +1,4 @@
-import 'app_constants.dart';
+import 'constants.dart';
 
 class AppStrings {
   static const appTitle = '${AppConstants.apiName} Example';
@@ -20,4 +20,5 @@ class AppStrings {
   static const sellOrBuy = 'Sell/Buy';
   static const chooseTransactionType =
       'Choose to see sell prices or buy prices of ';
+  static const error = 'Oops! Something went wrong..';
 }

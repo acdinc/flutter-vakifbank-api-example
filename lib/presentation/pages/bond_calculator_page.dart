@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../app/constants/app_strings.dart';
-import '../../app/injection_container.dart';
+import '../../app/locator.dart';
+import '../../app/strings.dart';
 import '../../core/extensions/build_context_extension.dart';
 import '../../domain/entities/form_data/form_data_entity.dart';
 import '../../domain/entities/product_info/product_info_entity.dart';
@@ -20,10 +20,10 @@ import '../widgets/form_widget.dart';
 
 class BondCalculatorPage extends StatelessWidget {
   const BondCalculatorPage({
-    super.key,
     required this.bondType,
     required this.transactionType,
     required this.productInfo,
+    super.key,
   });
 
   final BondType bondType;
