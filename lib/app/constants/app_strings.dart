@@ -8,7 +8,7 @@ class AppStrings {
   static const fetch = 'Fetch';
   static const list = 'List';
   static const bondList = '${AppConstants.apiName} Bond List';
-  static const calculateBond = '${AppConstants.apiName} Caclutate Bond';
+  static const calculateBond = '${AppConstants.apiName} Calculate Bond';
   static const quantity = 'Quantity';
   static const amount = 'Amount';
   static const cleanPrice = 'Clean Price';
@@ -16,7 +16,7 @@ class AppStrings {
   static const couponUnitPrice = 'Coupon Unit Price';
   static const netAmount = 'Net Amount';
   static const quantityOrAmount = 'Type quantity or amount';
-  static const calculate = 'Caclutate';
+  static const calculate = 'Calculate';
   static const sellOrBuy = 'Sell/Buy';
   static const chooseTransactionType =
       'Choose to see sell prices or buy prices of ';

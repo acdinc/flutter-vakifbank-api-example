@@ -5,7 +5,7 @@ publish_to: 'none'
 version: 0.0.1+1
 
 environment:
-  sdk: '>=2.19.0 <3.0.0'
+  sdk: '>=2.19.4 <3.0.0'
 
 dependencies:
   flutter:
@@ -18,8 +18,8 @@ dependencies:
   get_it: ^7.2.0
 
   # network
-  dio: ^4.0.6
-  retrofit: ^3.3.1
+  dio: ^5.0.2
+  retrofit: ^4.0.1
 
   # local storage
   hive_flutter: ^1.1.0
@@ -37,14 +37,15 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  # development
   bloc_test: ^9.1.1
   build_runner: ^2.3.3
   envied_generator: ^0.3.0
   freezed: ^2.3.2
   json_serializable: ^6.6.0
   mocktail: ^0.3.0
-  retrofit_generator: ^4.2.0
-  very_good_analysis: ^3.1.0
+  retrofit_generator: ^6.0.0+1
+  very_good_analysis: ^4.0.0+1
 
 flutter:
 

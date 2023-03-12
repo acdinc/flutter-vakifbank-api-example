@@ -38,7 +38,7 @@ Ali Dinc - [@acdinc](https://www.linkedin.com/in/acdinc/) - alcmdnc@gmail.com
 
 [version_badge]: https://img.shields.io/badge/version-0.0.1-orange
 
-[flutter_badge]: https://img.shields.io/badge/flutter-3.7.0-blue
+[flutter_badge]: https://img.shields.io/badge/flutter-3.7.7-blue
 [flutter_link]: https://flutter.dev/
 
 [vga_badge]:https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
